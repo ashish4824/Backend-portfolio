@@ -6,7 +6,8 @@
     "build": "tsc",
     "start": "NODE_ENV=production node dist/index.js",
     "dev": "nodemon src/index.ts",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build",
+    "deploy": "vercel build && vercel deploy"
   },
   "keywords": [],
   "author": "",
